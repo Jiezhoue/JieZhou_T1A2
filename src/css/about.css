@@ -5,6 +5,11 @@
     font-family: 'noto sans';
 }
 
+body{
+  max-width: 960px;
+  margin: auto;
+}
+
 
 .logo{
     width: 45px;
@@ -179,7 +184,7 @@ body{
 .me-container {
     display: flex;
     flex-direction: column;  
-    gap: 5px;
+    gap: 10px;
     margin: 5px;
     min-height: 300px;
 }
@@ -188,7 +193,8 @@ body{
     width: 40%;
     height: auto;
     float: right;
-    margin: 20px;
+    margin: 0 20px;
+    margin-top: 20px;
 }
 
 .skill{
@@ -204,28 +210,33 @@ body{
 }
 .skill-text{
     text-align: right;
-    margin-top: 40px;
-    margin-left: 30px;
+    margin-left: 20px;
+    margin-top: 14px;
+    text-align:right;
+    margin-right: 20px;
 }
 
 .respons img{
-    width: 40%;
-    height: auto;
+    margin-left: -10px;
+    width: 60%;
     float: left;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .respons {
   color: white;
 }
 
-.respons h3{
-    font-size: 1rem;
+.respons h1{
+    margin-right: 20px;
     font-weight: 300 bold;
 }
 
 .respons p{
   font-weight: 100;
+  line-height: 1.5;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .bbb{
@@ -235,20 +246,29 @@ body{
 }
 
 .bbb img{
-    width: 30%;
-    height: auto;
+    width: 100%;
+    
 }
 .bbb{
-  display: flex;
-  text-align: right;
-  flex: 1 2 2;
-  justify-content: space-around;
-  gap: 10px;
+  text-align: left;
   padding: 8px;
 }
 
+.bbb p{
+  margin-right: 30px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
 .bbb h3{
-  font-size: 2rem;
+  display: block;
+  position: absolute;
+  float: left;
+  font-size: 3rem;
+  transform-origin: 0 0;
+  transform: rotate(90deg);
+  margin-left: 50px;
 }
 
 
