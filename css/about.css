@@ -31,7 +31,7 @@ a{
 }
 /* create navbar using flex layout */
 .navbar-container{
-  background-image: url(/src/pic/contact-me.jpg);
+  background-image: url(/pic/about-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -62,76 +62,132 @@ a{
   transition: color 0.3s ease-in-out;
 }
 
+    
 
-.contact-container{
-    position: relative;
+.me-container {
     display: flex;
-    justify-content: space-around;
-    height: 800px;
-    color: white;
-    background-color: black;
+    flex-direction: column;  
+    gap: 10px;
+    margin: 5px;
+    min-height: 300px;
 }
 
-form{
-  width: 70%;
-  margin: 10px 0;;
+.me-container .intro img{
+    width: 40%;
+    min-width: 200px;
+    height: auto;
+    float: right;
+    margin: 0 20px;
+    margin-top: 20px;
 }
 
-.side-pic{
-  width: 50%;
-  background-image: url(/src/pic/plants.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+.intro{
+    background-color: #DFE2DF;
+    border-radius: 8px;
+    padding: 10px 0;
+}
+.intro h3{
+    text-align: center;
+    font-family: 'noto sans';
+    font-size: 3rem;
+    font-weight: bold;
+}
+.intro-text{
+    text-align: right;
+    margin-left: 20px;
+    margin-top: 14px;
+    text-align:right;
+    margin-right: 20px;
 }
 
-
-
-textarea{
-    height: 300px;
-    border-radius: 12px;
-    padding-left: 10px;
-    margin-bottom: 10px;
+.vision img{
+    margin-left: -10px;
+    width: 60%;
+    float: left;
+    margin-right: 20px;
 }
 
-form{
-    padding: 30px;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    gap:5px;
-    position: relative;
-}
-
-input[type=text]{
-    padding-left: 10px;
-    height: 40px;
-    border-radius: 30px;
-    margin-bottom: 10px;
-}
-
-input[type=submit]{
-    height: 50px;
-    width: 100px;
-}
-
-input[type=submit]:hover{
-  background-color:#36454f;
+.vision {
   color: white;
 }
 
+.vision h1{
+    margin-right: 20px;
+    font-weight: 300 bold;
+}
+
+.vision p{
+  font-weight: 100;
+  line-height: 1.5;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.interets{
+    background-color: #8A8C8E;
+    border-radius: 8px;
+    color: white;
+}
+
+.interets img{
+    width: 100%;
+    
+}
+.interets{
+  text-align: left;
+  padding: 8px;
+}
+
+.interets p{
+  margin-right: 30px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.interets h3{
+  display: block;
+  position: absolute;
+  float: left;
+  font-size: 3rem;
+  transform-origin: 0 0;
+  transform: rotate(90deg);
+  margin-left: 50px;
+}
 
 
 footer p{
+    display: block;
+    font-size: 0.6rem;
     color: white;
-    text-align: center;
-    font-size: 0.7rem;;
+    position: relative;
+    padding: 15px;
 }
 
-footer{
-    padding: 15px 0;
-    background-color: black;
-}
+@media only screen and (min-width:800px){
+  .me-container .intro h3{
+    font-size: 6rem;
+  }
 
+  .me-container .vision h1{
+    font-size: 4.2rem;
+    line-height: 4rem;
+  }
+
+  .me-container .interets h3{
+    font-size: 6rem;
+    margin-left: 100px;
+  }
+
+  .me-container .interets img{
+    width: 50%;
+  }
+
+  .me-container .interets p{
+    margin-left: 100px;
+  }
+
+}
 
 /* when the screen size less than 600px, the hamburger menu will replace the top bar menu */
 @media only screen and (max-width:600px){
@@ -266,12 +322,5 @@ footer{
   .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
       transform-origin: bottom left;
       transform: rotate(-33deg);
-  }
-
-  .side-pic{
-    display: none;
-  }
-  form{
-    width: 100%;
   }
 }

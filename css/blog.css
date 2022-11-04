@@ -32,7 +32,7 @@ a{
 
 /* create navbar using flex layout */
 .navbar-container{
-  background-image: url(/src/pic/contact-me.jpg);
+  background-image: url(/pic/contact-me.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
