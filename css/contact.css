@@ -36,11 +36,11 @@ a{
   background-position: center;
   background-size: cover;
   justify-content:space-between;
-  position: relative;
   display: flex;
   height: 300px;
   align-items:flex-start;
 }
+
 /* create an invisible checkbox for hamburger menu */
 .navbar-container input[type="checkbox"] {
   opacity: 0;
@@ -50,11 +50,10 @@ a{
   display: flex;
   position: relative;
   padding-top: 30px;
+  gap: 30px;
+  margin-right: 30px;
 }
 
-.navbar .navbar-container .menu-items a{
-  padding-right: 30px;
-}
 
 .navbar .navbar-container .menu-items a:hover{
   border-bottom: 4px solid red;
@@ -79,12 +78,10 @@ form{
 
 .side-pic{
   width: 50%;
-  background-image: url(/pic/plants.jpg);
+  background-image: url(/pic/contact.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
 
 textarea{
     height: 300px;
@@ -92,7 +89,7 @@ textarea{
     padding-left: 10px;
     margin-bottom: 10px;
 }
-
+/* flex layout created for form */
 form{
     padding: 30px;
     justify-content: center;
@@ -119,17 +116,17 @@ input[type=submit]:hover{
   color: white;
 }
 
-
-
-footer p{
-    color: white;
-    text-align: center;
-    font-size: 0.7rem;;
-}
-
+/* set footer fixed to the bottom of the page */
 footer{
-    padding: 15px 0;
-    background-color: black;
+  position: fixed;
+  bottom: 0;
+  padding: 15px 0;
+  background-color: #36454F;
+  color: white;
+  text-align: center;
+  font-size: 0.7rem;
+  width: 100%;
+  max-width: 1024px;
 }
 
 
@@ -144,23 +141,13 @@ footer{
       display: block;
       position: relative;
   }
-
-  .navbar-container input[type="checkbox"] {
-      display: none;
-  }
-
+  /* all the links styling from vertical to horizontal */
   .menu-items{
       display: flex;
       flex-direction: column;
       margin-right: 30px;
   }
 
-  input[type="checkbox"]{
-      display: block;
-      position: absolute;
-      top: 30px;
-      right:30px;
-  }
   /* make the hamburger menu behind the checkbox, so every time check the
   hamburger menu, will be like check the checkbox */
   .navbar-container .hamburger-lines {
@@ -170,6 +157,7 @@ footer{
       position: absolute;
       top: 30px;
       right: 30px;
+      /* hamburger menu will be on the top of everthing */
       z-index: 51;
       display: flex;
       flex-direction: column;
@@ -197,7 +185,8 @@ footer{
       transform-origin: 0% 100%;
       transition: transform 0.4s ease-in-out;
   }
-  /* make the checkbox at the same position with the hamburger menu and increase the checkbox size */
+  /* make the checkbox at the same position 
+  with the hamburger menu and increase the checkbox size */
   .navbar-container input[type="checkbox"] {
       position: absolute;
       display: block;
@@ -208,16 +197,18 @@ footer{
       z-index: 99;
       opacity: 0;
   }
-  /* the menu will hide at the leaf hand side of screen with column flex layout */
+  /* the menu will hide at the left hand side of screen with column flex layout */
   .navbar .navbar-container .menu-items {
       padding-bottom: 50px;
       background: black;
       height: 100vh;
       width: 100%;
-      transform: translateX(-150%);
+      transform: translateX(-101%);
       flex-direction: column;
       justify-content: flex-end;
       transition: transform 0.5s ease-in-out;
+      /* change gap from 30px to 5px */
+      gap: 5px;
       opacity: 0.9;
       z-index: 50;
   }
@@ -227,7 +218,7 @@ footer{
       font-size: 1.3rem;
       font-weight: 500;
   }
-
+  /* about me, blogs and contact me pages link */
   .menu-items li a {
       font-family: 'noto sans';
       font-weight: 400;
@@ -237,7 +228,7 @@ footer{
       transition: color 0.3s ease-in-out;
       padding-left: 30px;
   }
-
+  /* twitter and linkedin links */
   .menu-items .social a{
       font-size: 2rem;
       font-weight: 100;
@@ -249,6 +240,7 @@ footer{
       color: #117964;
       transition: color 0.3s ease-in-out;
   }
+  
   /* make the 3 lines turn and become a cross symbol */
   .navbar-container input[type="checkbox"]:checked ~ .menu-items {
       transform: translateX(0);
@@ -258,7 +250,7 @@ footer{
       transform-origin: top left;
       transform: rotate(33deg);
   }
-  
+  /* hamburger menu second line disappear */
   .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
       transform: scaleY(0);
   }
@@ -268,6 +260,7 @@ footer{
       transform: rotate(-33deg);
   }
 
+ /* small screen will hide the side picture, form will take the whole screen width*/
   .side-pic{
     display: none;
   }
