@@ -73,6 +73,21 @@ the checkbox size will be the same as hamburger menu at the top right corner, an
 
 Using Floating method to create different layout for each section.
 
+# third page - blog.html
+
+![blogs](/docs/mobile-blog1.jpg)
+
+Using the flexbox layout.
+
+## **And decide the font style for the whole project**
+
+- Noto+Sans
+- Lora
+
+
+
+
+
 
 
 
