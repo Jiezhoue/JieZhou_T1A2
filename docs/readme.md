@@ -39,6 +39,8 @@ using illustrator create the logo.
 # Roughly finish the index.html page on mobile version.
 *### The hamburger menu is using checkbox function.*
 
+### Inspire from 10+ Hamburger menu example [hamburger menu](https://alvarotrigo.com/blog/hamburger-menu-css/)
+
 ```html
 <!-- create an invisible checkbox for hamburger menu -->
 <input type="checkbox" name="checkbox" id="checkbox">
@@ -66,6 +68,12 @@ the checkbox size will be the same as hamburger menu at the top right corner, an
 
 
 # Start second page - about.html
+
+![about me](/docs/mobile-aboutme1.jpg)
+
+Using Floating method to create different layout for each section.
+
+
 
 
 
