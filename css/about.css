@@ -154,8 +154,9 @@ a{
 .interets p{
   margin-right: 30px;
   margin-left: 50px;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 200;
 }
 
 .interets h3{
