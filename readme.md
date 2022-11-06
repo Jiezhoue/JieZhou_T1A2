@@ -166,7 +166,38 @@ footer{
 }
 ```
 
+# Create the blog page for desktop and tablet version
 
+![blog page](/docs/desktop-blog.jpg)
+
+Cause the blog container is set as flexbox layout, when the sceen size become bigger, there will be two columns for the blogs. And each blog item has date, title, image and the content with black box shadow.
+
+# Create the contact page for desktop and tablet version
+
+![contact desktop](/docs/desktop-contact.jpg)
+
+The side picture hidded on mobile version, but shows on the desktop version
+
+
+
+# Deploy on Netlify
+
+Here is the link ->  [https://lucent-figolla-a402f3.netlify.app/](https://lucent-figolla-a402f3.netlify.app/)
+
+## Reference
+- https://unsplash.com/photos/em5w9_xj3uU
+
+- https://www.altamira.ai/blog/common-screen-sizes-for-responsive-web-design/
+
+- https://alvarotrigo.com/blog/hamburger-menu-css/
+
+- https://www.dreamstime.com/stock-illustration-top-view-busy-businessman-working-hard-his-desk-office-lot-paper-work-business-conceptual-image77376239
+
+- https://www.thedrum.com/opinion/2022/10/28/rust-programming-language-the-future-web-development
+
+- https://www.thedrum.com/news/2022/10/27/calling-all-emerging-talent-creative-futures-awards-competition-open-entries
+
+- https://www.techbusinessnews.com.au/news/google-starts-get-the-message-campaign-pressuring-apple-into-rcs-on-the-iphone/
 
 
 
