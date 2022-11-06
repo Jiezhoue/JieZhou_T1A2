@@ -61,7 +61,6 @@ a{
   transition: color 0.3s ease-in-out;
 }
 
-
 .contact-container{
     position: relative;
     display: flex;
@@ -116,6 +115,7 @@ input[type=submit]:hover{
   color: white;
 }
 
+/* text conpoment no.3 - footer with text only styling */
 /* set footer fixed to the bottom of the page */
 footer{
   position: fixed;

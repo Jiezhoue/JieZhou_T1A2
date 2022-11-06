@@ -184,6 +184,10 @@ The side picture hidded on mobile version, but shows on the desktop version
 
 Here is the link ->  [https://lucent-figolla-a402f3.netlify.app/](https://lucent-figolla-a402f3.netlify.app/)
 
+# github repository link
+
+[https://github.com/Jiezhoue/JieZhou_T1A2](https://github.com/Jiezhoue/JieZhou_T1A2)
+
 ## Reference
 - https://unsplash.com/photos/em5w9_xj3uU
 

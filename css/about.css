@@ -70,6 +70,7 @@ a{
     margin-bottom: 50px;
 }
 
+/* graphic component no.2 - about me introdution with floating image */
 .me-container .intro img{
     width: 40%;
     min-width: 200px;
@@ -159,6 +160,7 @@ a{
   font-weight: 200;
 }
 
+/* text component no.4 - h3 heading */
 .interets h3{
   display: block;
   position: absolute;
