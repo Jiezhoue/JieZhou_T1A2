@@ -79,10 +79,75 @@ Using Floating method to create different layout for each section.
 
 Using the flexbox layout.
 
-## **And decide the font style for the whole project**
+### **And decide the font style for the whole project**
 
 - Noto+Sans
 - Lora
+
+# Contact page
+
+![contact me](/docs/mobile-contact1.jpg)
+
+Only Landing image and contact form
+
+```html
+    <!-- create a form to submit the contact info -->
+    <div class="contact-container">
+        <form action="action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Sample: john@gmail.com">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Wtire something..."></textarea>
+            <input type="submit" value="Send">
+        </form>
+        <div class="side-pic"></div>
+    </div>
+```
+
+Leave the space for side picture when using desktop and tablet.
+
+# Create the tablet and desktop version
+
+![desktop and tablet1](/docs/desktop-index.jpg)
+
+Nav bar will appear on the top on desktop and tablet version.
+
+![desktop and tablet2](/docs/desktop-index2.jpg)
+
+Only shows the date and title of each blog, you can click the <mark>image</mark> or <mark>explore</mark> at the bottom to go to the blog page. Each blog has an unique ID, so the link will direct you to that blog in stead of the top of blog page.
+
+```html
+<div class="blog-item">
+    <a href="/pages/blog.html#Blog1"><img src="/pic/blog2-img.png" /></a>
+    <div class="blog-date">27 Octorber 2022</div>
+    <!-- jump to the specific part of the blog page using id attribute -->
+    <h3>Calling all emerging talent: Creative Futures awards competition open for entries</h3>
+    <p><a href="/pages/blog.html#Blog1">EXPLORE &#8594</a></p>
+</div>
+ ```
+
+the <mark>explore -></mark> is an animation link move from left to right
+
+```css
+/* create an animation for each artcical's link */
+.blog-item p a:hover{
+  animation-name: move-right;
+  animation-duration: 20s;
+}
+
+@keyframes move-right {
+  0%   {left:0px; top:0px;}
+  100%  {left:400px; top:0px;}
+}
+```
+
+
+
+
 
 
 
