@@ -145,6 +145,32 @@ the <mark>explore -></mark> is an animation link move from left to right
 }
 ```
 
+# Create about page on desktop and tablet
+
+![About page](/docs/desktop-about.jpg)
+
+Make the footer stick to the bottom of the page.
+
+```css
+/* set footer fixed to the bottom of the page */
+footer{
+  position: fixed;
+  bottom: 0;
+  padding: 15px 0;
+  background-color: #36454F;
+  color: white;
+  text-align: center;
+  font-size: 0.7rem;
+  width: 100%;
+  max-width: 1024px;
+}
+```
+
+
+
+
+
+
 
 
 
