@@ -23,6 +23,14 @@ Start from the mobile version, the index.html page will include all general cont
 
 ![mockup of the landing page](/docs/mobile-idea.jpg)
 
+# Sitemap and functionality
+
+![sitemap](/docs/sitemap.jpg)
+
+Will have 5 links, 3 internal pages links and 2 external page links. The internal pages will be About Me, Blog and Contact.
+Since this is a portfolio for web developer, the target audience will be the employer in the Tech Company. 
+
+
 # Create the logo and find the image for landing page
 
 [landing image](https://unsplash.com/photos/em5w9_xj3uU) from **unsplash**
