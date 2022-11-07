@@ -87,6 +87,9 @@ textarea{
     border-radius: 12px;
     padding-left: 10px;
     margin-bottom: 10px;
+    /* disable the "grabber" in the bottom right corner
+    prevent from being resized */
+    resize: none;
 }
 /* flex layout created for form */
 form{
