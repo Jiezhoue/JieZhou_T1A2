@@ -270,4 +270,10 @@ footer{
   form{
     width: 100%;
   }
+  /* change the submit buttom to 100% width on Mobile version*/
+  input[type=submit]{
+    height: 50px;
+    width: 100%;
+  }
+
 }

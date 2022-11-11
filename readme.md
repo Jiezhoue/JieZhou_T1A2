@@ -30,6 +30,10 @@ Start from the mobile version, the index.html page will include all general cont
 Will have 5 links, 3 internal pages links and 2 external page links. The internal pages will be About Me, Blog and Contact.
 Since this is a portfolio for web developer, the target audience will be the employer in the Tech Company. 
 
+# Wireframe
+
+![wireframe mobile and desktop](/docs/wireframe.jpg)
+
 
 # Create the logo and find the image for landing page
 
@@ -195,6 +199,9 @@ Here is the link ->  [https://lucent-figolla-a402f3.netlify.app/](https://lucent
 # github repository link
 
 [https://github.com/Jiezhoue/JieZhou_T1A2](https://github.com/Jiezhoue/JieZhou_T1A2)
+
+# Youtube video of presentation
+[https://www.youtube.com/watch?v=J29daPx06Jk](https://www.youtube.com/watch?v=J29daPx06Jk)
 
 ## Reference
 - https://unsplash.com/photos/em5w9_xj3uU
